@@ -775,7 +775,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
+}
+
+.contact-font {
+    color:rgba(0, 0, 0, .05);
 }
 
 .btn-atomic-tangerine {
@@ -1040,3 +1044,6 @@ h4 {
         text-align: center;
     }
 }
+
+/* Modifications */ 
+

@@ -1063,11 +1063,7 @@ h4 {
 }
 
 .logo {
-    height:   70px;
-}
-
-.logo2 {
-    width: 100px;
+    height: 70px;
 }
 
 .h2contactsize {
@@ -1076,4 +1072,22 @@ h4 {
 
 .h6colorindex {
   position: relative;
+}
+
+.contactlink {
+  position: absolute;
+margin-top: 20px;
+margin-left: 60%;
+text-decoration: none;
+padding: 15px;
+line-height: 20px;
+font-weight: 400;
+font-size: 15px;
+
+}
+
+.contactlink:hover {
+  background-color: #eee;
+  cursor: pointer;
+  color: #23527c;
 }

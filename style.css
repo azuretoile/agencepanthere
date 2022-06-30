@@ -322,19 +322,8 @@ a:hover {
   z-index: 1;
 }
 
-.nav > li {
-  float: left;
-  margin-top: 4px;
-  font-size: 16px;
-}
-
-.navbar-nav .open .dropdown-menu > li > a {
+.navbar-nav .open .dropdown-menu > a {
   text-align: inherit;
-}
-
-.nav > li a:hover,
-.nav > li a:focus {
-  background: transparent;
 }
 
 .navbar-toggle {
@@ -342,13 +331,8 @@ a:hover {
   border: 0px;
 }
 
-.navbar-toggle:hover {
-  background: transparent !important;
-}
-
-.navbar-toggle .icon-bar {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 26px;
+.navbar-toggle{
+  background: transparent;
 }
 
 .nav-invert .navbar .nav {
@@ -1079,7 +1063,7 @@ h4 {
 }
 
 .logo {
-    height: 40px;
+    height:   70px;
 }
 
 .logo2 {

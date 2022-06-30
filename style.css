@@ -1077,3 +1077,11 @@ h4 {
   font-size: 22px;
   text-transform: none;
 }
+
+.logo {
+    height: 40px;
+}
+
+.logo2 {
+    width: 100px;
+}

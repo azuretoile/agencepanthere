@@ -706,12 +706,12 @@ p {
   margin: auto auto auto auto;
 }
 
-h2 {
+h2, h6 {
   font-size: 22px;
   line-height: 1.4em;
 }
 
-h3 {
+h3, h5 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -1053,7 +1053,7 @@ h4 {
   color: #575757;
 }
 
-.h3_h3 {
+.temoignage {
   color: #575757;
   font-family: Helvetica;
   text-transform: none;
@@ -1063,7 +1063,7 @@ h4 {
   font-style: italic;
 }
 
-.h3_p {
+.temoignage_auteur {
   font-weight: lighter;
   font-size: 20px;
   margin-top: -10px;
@@ -1084,4 +1084,8 @@ h4 {
 
 .logo2 {
     width: 100px;
+}
+
+.h2contactsize {
+  font-size: 11px;
 }

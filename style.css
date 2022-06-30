@@ -1089,3 +1089,7 @@ h4 {
 .h2contactsize {
   font-size: 11px;
 }
+
+.h6colorindex {
+  position: relative;
+}

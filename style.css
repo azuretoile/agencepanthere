@@ -106,7 +106,7 @@ a:hover {
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
-
+ 
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -491,7 +491,6 @@ button {
 }
 
 .form-control {
-  border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
 
@@ -753,7 +752,8 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: #364577;
+  background-color: 
+  #191F38;
 }
 
 .bgc-atomic-tangerine {
@@ -770,7 +770,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color:#333333;
 }
 
 .btn-atomic-tangerine:hover {
@@ -913,25 +913,7 @@ h4 {
     -webkit-transform: none;
     -ms-transform: none;
   }
-  .nav > li {
-    margin-top: 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background: rgba(0, 0, 0, 0.05);
-    text-align: left;
-    padding-left: 15px;
-    width: 100%;
-  }
-  .nav > li:hover {
-    background: rgba(0, 0, 0, 0.08);
-  }
-  .dropdown .dropdown a .caret {
-    float: none;
-    margin: 5px 0 0 10px !important;
-    border: 4px solid black;
-    border-bottom-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
-  }
+  
   #hero-bloc .navbar .nav {
     background: rgba(0, 0, 0, 0.8);
   }
@@ -1016,13 +998,49 @@ h4 {
     width: 180px;
     height: 320px;
   }
+
+  .portfolio-thumb {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .text-center {
+    margin-bottom: 20px;
+  }
+
+
+  /* Modifications */
+
+  .bg-banniere {
+    display: hidden;
 }
+
+.bg-presentation {
+ display: hidden;
+}  
+
+.bg-banniere2 {
+  background-image: url("img/agence-la-panthere-portable.jpg");
+
+}
+
+.bg-presentation2 {
+  background-image: url("img/image-de-presentation-portable.bmp");
+
+}
+
+
+}
+
 
 @media (max-width: 400px) {
   .bloc {
     padding-left: 0;
     padding-right: 0;
   }
+
+  
 }
 
 @media (max-width: 767px) {
@@ -1090,4 +1108,26 @@ font-size: 15px;
   background-color: #eee;
   cursor: pointer;
   color: #23527c;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.footerindex {
+  color:#333333;
+}
+
+.endtextcontact {
+  color: #212121;
+}
+
+.formbutton {
+  border-radius: 40px;
+  border: none;
+}
+
+.formbutton:hover {
+cursor: pointer;
+
 }

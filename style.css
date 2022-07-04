@@ -1009,16 +1009,9 @@ h4 {
     margin-bottom: 20px;
   }
 
-
-  /* Modifications */
-
-  .bg-banniere {
-    display: none;
+.bg-banniere, .bg-presentation {
+  background-image: none;
 }
-
-.bg-presentation {
- display: none;
-}  
 
 .bg-banniere2 {
   background-image: url("img/agence-la-panthere-portable.jpg");
@@ -1029,7 +1022,6 @@ h4 {
   background-image: url("img/image-de-presentation-portable.bmp");
 
 }
-
 
 }
 

@@ -1013,11 +1013,11 @@ h4 {
   /* Modifications */
 
   .bg-banniere {
-    display: hidden;
+    display: none;
 }
 
 .bg-presentation {
- display: hidden;
+ display: none;
 }  
 
 .bg-banniere2 {
@@ -1040,7 +1040,7 @@ h4 {
     padding-right: 0;
   }
 
-  
+
 }
 
 @media (max-width: 767px) {

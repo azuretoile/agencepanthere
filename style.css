@@ -335,7 +335,7 @@ a:hover {
   background: transparent;
 }
 
-.contactlink {
+.contactlinkindex, .contactlink {
   position: absolute;
 margin-top: 20px;
 margin-left: 60%;
@@ -895,7 +895,7 @@ h4 {
 @media (max-width: 767px) {
 
 
-  .contactlink {
+  .contactlinkindex {
     position: absolute;
     margin-top: -55px;
     margin-left: 80%;
@@ -1044,8 +1044,30 @@ h4 {
 
 }
 
+.img-responsive {
+  width: 200px;
+}
 
+.portfolio-row {
+  display: flex;
+}
 
+.social {
+  display: flex;
+justify-content: center;
+}
+
+.icon-md {
+  margin-right: 24px;
+}
+
+.bloc .container {
+  margin-left: 10px;
+}
+
+.contactlink {
+  margin-top: 12px;
+}
 }
 
 
@@ -1109,10 +1131,17 @@ h4 {
 
 
 
+.contactlinkindex:hover {
+  background-color: #eee;
+  cursor: pointer;
+  color: #23527c;
+}
+
 .contactlink:hover {
   background-color: #eee;
   cursor: pointer;
   color: #23527c;
+
 }
 
 .form-group {

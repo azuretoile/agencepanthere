@@ -106,7 +106,7 @@ a:hover {
 .d-bloc button:hover {
   color: rgba(255, 255, 255, 0.9);
 }
- 
+
 .d-bloc .icon-round,
 .d-bloc .icon-square,
 .d-bloc .icon-rounded,
@@ -331,20 +331,20 @@ a:hover {
   border: 0px;
 }
 
-.navbar-toggle{
+.navbar-toggle {
   background: transparent;
 }
 
-.contactlinkindex, .contactlink {
+.contactlinkindex,
+.contactlink {
   position: absolute;
-margin-top: 20px;
-margin-left: 60%;
-text-decoration: none;
-padding: 15px;
-line-height: 20px;
-font-weight: 400;
-font-size: 15px;
-
+  margin-top: 20px;
+  margin-left: 60%;
+  text-decoration: none;
+  padding: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 .nav-invert .navbar .nav {
@@ -701,12 +701,14 @@ p {
   margin: auto auto auto auto;
 }
 
-h2, h6 {
+h2,
+h6 {
   font-size: 22px;
   line-height: 1.4em;
 }
 
-h3, h5 {
+h3,
+h5 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
@@ -764,8 +766,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-  background-color: 
-  #191F38;
+  background-color: #191f38;
 }
 
 .bgc-atomic-tangerine {
@@ -782,7 +783,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color:#333333;
+  color: #333333;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,7 +828,6 @@ h4 {
   background-image: url("img/image-de-presentation.bmp");
 }
 
-
 .h2_h2 {
   color: #575757;
 }
@@ -858,7 +858,7 @@ h4 {
 }
 
 .logo {
-    height: 70px;
+  height: 70px;
 }
 
 .h2contactsize {
@@ -868,8 +868,6 @@ h4 {
 .h6colorindex {
   position: relative;
 }
-
-
 
 .contactlinkindex:hover {
   background-color: #eee;
@@ -881,7 +879,6 @@ h4 {
   background-color: #eee;
   cursor: pointer;
   color: #23527c;
-
 }
 
 .form-group {
@@ -889,7 +886,7 @@ h4 {
 }
 
 .footerindex {
-  color:#333333;
+  color: #333333;
 }
 
 .endtextcontact {
@@ -902,8 +899,7 @@ h4 {
 }
 
 .formbutton:hover {
-cursor: pointer;
-
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
@@ -970,20 +966,16 @@ cursor: pointer;
   }
 }
 
-
 @media (max-width: 767px) {
-
-
   .contactlinkindex {
     position: absolute;
     margin-top: -55px;
     margin-left: 80%;
-  text-decoration: none;
-  padding: 15px;
-  line-height: 20px;
-  font-weight: 400;
-  font-size: 15px;
-  
+    text-decoration: none;
+    padding: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 15px;
   }
 
   .page-container {
@@ -1019,7 +1011,7 @@ cursor: pointer;
     -webkit-transform: none;
     -ms-transform: none;
   }
-  
+
   #hero-bloc .navbar .nav {
     background: rgba(0, 0, 0, 0.8);
   }
@@ -1102,57 +1094,54 @@ cursor: pointer;
   .portfolio-thumb {
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .text-center {
     margin-bottom: 20px;
   }
 
-.bg-banniere, .bg-presentation {
-  background-image: none;
+  .bg-banniere,
+  .bg-presentation {
+    background-image: none;
+  }
+
+  .bg-banniere2 {
+    background-image: url("img/agence-la-panthere-portable.jpg");
+  }
+
+  .bg-presentation2 {
+    background-image: url("img/image-de-presentation-portable.bmp");
+  }
+
+  .img-responsive {
+    width: 200px;
+  }
+
+  .portfolio-row {
+    display: flex;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-md {
+    margin-right: 24px;
+  }
+
+  .bloc-mob-center-text {
+    text-align: center;
+  }
+
+  .blocontact .containercontact {
+    margin-left: 10px;
+  }
+
+  .contactlink {
+    margin-top: 12px;
+  }
 }
-
-.bg-banniere2 {
-  background-image: url("img/agence-la-panthere-portable.jpg");
-
-}
-
-.bg-presentation2 {
-  background-image: url("img/image-de-presentation-portable.bmp");
-
-}
-
-.img-responsive {
-  width: 200px;
-}
-
-.portfolio-row {
-  display: flex;
-}
-
-.social {
-  display: flex;
-justify-content: center;
-}
-
-.icon-md {
-  margin-right: 24px;
-}
-
-.bloc-mob-center-text {
-  text-align: center;
-}
-
-.blocontact .containercontact {
-  margin-left: 10px;
-}
-
-.contactlink {
-  margin-top: 12px;
-}
-}
-
 
 @media (max-width: 400px) {
   .bloc {
@@ -1161,63 +1150,59 @@ justify-content: center;
   }
 }
 
-
 @media (max-width: 450px) {
-.navbar-brand img {
-  max-height: 57px;
-}
+  .navbar-brand img {
+    max-height: 57px;
+  }
 
-.contactlinkindex {
-  margin-left: 74%;
-}
+  .contactlinkindex {
+    margin-left: 74%;
+  }
 
-.contactlink {
-  margin-left: 20%;
-  margin-top: 5px;
-}
-
-.form-control {
-  width: 210px;
-}
-
-.text-centercontact0 {
-  margin-top: 0px;
-}
-
-.text-centercontact { 
-margin-top: 5px
- }
-
-.voffset-lg {
-  flex-wrap: wrap;
-}
-
-.h3_work {
-  font-size: 18px;
-}
-
-.img-responsive {
-  width: 145px;
-}
-
-.text-center {
-  margin-bottom: 0;
-}
-
-.temoignage {
-  margin-top: 20px;
-}
-
-.textfooter {
-  margin-bottom: 5px;
-}
-
-}
-
-
-
-@media (min-width: 768px) and (max-width: 860px)  {
   .contactlink {
-    margin-left: 51%; 
+    margin-left: 20%;
+    margin-top: 5px;
+  }
+
+  .form-control {
+    width: 210px;
+  }
+
+  .text-centercontact0 {
+    margin-top: 0px;
+  }
+
+  .text-centercontact {
+    margin-top: 5px;
+  }
+
+  .voffset-lg {
+    flex-wrap: wrap;
+  }
+
+  .h3_work {
+    font-size: 18px;
+  }
+
+  .img-responsive {
+    width: 145px;
+  }
+
+  .text-center {
+    margin-bottom: 0;
+  }
+
+  .temoignage {
+    margin-top: 20px;
+  }
+
+  .textfooter {
+    margin-bottom: 5px;
+  }
 }
- }
+
+@media (min-width: 768px) and (max-width: 860px) {
+  .contactlink {
+    margin-left: 51%;
+  }
+}

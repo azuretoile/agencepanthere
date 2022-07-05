@@ -774,7 +774,7 @@ h4 {
 }
 
 .tc-white {
-  color: #f3976c;
+  color: white;
 }
 
 .contact-font {
@@ -900,6 +900,28 @@ h4 {
 
 .formbutton:hover {
   cursor: pointer;
+}
+
+.contactinformations {
+  font-size: 15px;
+}
+
+.textfooter {
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.h2contactsize {
+  font-size: 15px;
+  color: white;
+}
+
+.h1contact {
+  color: white;
+}
+
+.bloctextcontact {
+  position: relative;
 }
 
 @media (max-width: 1024px) {
@@ -1141,6 +1163,26 @@ h4 {
   .contactlink {
     margin-top: 12px;
   }
+}
+
+@media (min-width: 558px) and (max-width: 692px) {
+.contactlink {
+  margin-left: 50%;
+}
+}
+
+@media (min-width: 462px) and (max-width: 557px) {
+  .contactlink {
+    margin-left: 40%;
+  }
+}
+
+
+@media (max-width: 461px) {
+   .contactlink {
+  margin-left: 30%;
+}
+
 }
 
 @media (max-width: 400px) {

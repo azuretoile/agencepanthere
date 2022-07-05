@@ -23,6 +23,8 @@
     <script src="./js/blocs.min.js"></script>
     <script src="./js/jqBootstrapValidation.js"></script>
     <script src="./js/formHandler.js"></script>
+
+
   </head>
 
   <body>
@@ -44,10 +46,10 @@
         id="bloc-6"
       >
         <div class="container bloc-lg">
-          <div class="row">
-            <div class="col-sm-12">
+          <div class="row rowcontact">
+            <div class="col-sm-12 bloctextcontact">
               <h1
-                class="text-center text-centercontact0 hero-bloc-text tc-white contact-font"
+                class="text-center text-centercontact0 hero-bloc-text tc-white contact-font h1contact"
               >
                 Parlons web design !
               </h1>
@@ -71,26 +73,53 @@
         <div class="container containercontact bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form>
-                
+
+              <form
+                id="form_1"
+                novalidate
+                success-msg="Your message has been sent."
+                fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+              >
+              
                 <div class="form-group">
                   <label for="name"> Nom </label>
-                  <input id="name" class="form-control" type="text" required />
+                  <input
+                    id="name"
+                    name="nom"
+                    class="form-control"
+                    type="text"
+                    aria-required="true"
+                    required
+                    placeholder="Ex : Jean"
+                  />
                 </div>
+
 
                 <div class="form-group">
                   <label for="email"> Adresse email </label>
                   <input
                     id="email"
+                    name="email"
                     class="form-control"
                     type="email"
+                    aria-required="true"
+                    autofocus
+                    placeholder="Ex : jean@hotmail.com"
                     required
                   />
                 </div>
 
                 <div class="form-group">
                   <label for="input"> Comment nous avez-vous connu ? </label>
-                  <input class="form-control" type="text" required id="input" />
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="NotreConnaissance"
+                    required
+                    placeholder="Ex : un avis, google etc..."
+                    aria-required="true"
+                    id="input"
+                  />
                 </div>
 
                 <div class="form-group">
@@ -102,14 +131,17 @@
                     id="message"
                     class="form-control"
                     rows="4"
+                    name="VotreProjet"
                     cols="50"
-                    required
+                    aria-required="true"
+                    required                
                   ></textarea>
                 </div>
 
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine formbutton"
                   type="submit"
+                  name="BoutonEnvoyer"
                 >
                   Envoyer
                 </button>
@@ -117,7 +149,7 @@
             </div>
 
             <div class="col-sm-6">
-              <p>
+              <p class="contactinformations">
                 contact@agencelapanthere.com<br />2 place Sathonay 69001 Lyon<br />Ouvert
                 de 9h à 18h, du lundi au vendredi<br />
               </p>
@@ -133,18 +165,64 @@
     ></a>
     <!-- ScrollToTop Button END-->
 
+  
     <footer>
       <div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
         <div class="container bloc-sm">
           <div class="row">
             <div class="col-sm-12">
-              <p class="text-center endtextcontact">
+              <p class="text-center footerindex textfooter">
                 Agence La Panthère - Agence web basée à Lyon.<br />
               </p>
+
+              <div class="row row-no-gutters social">
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a
+                      class="social"
+                      href="#"
+                      aria-label="lien de notre twitter"
+                      ><span class="fa fa-twitter icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a
+                      class="social"
+                      href="#"
+                      aria-label="lien de notre facebook"
+                      ><span class="fa fa-facebook icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a
+                      class="social"
+                      href="#"
+                      aria-label="lien de notre dribble"
+                      ><span class="fa fa-dribbble icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="text-center">
+                    <a
+                      class="social"
+                      href="#"
+                      aria-label="lien de notre instagram"
+                      ><span class="fa fa-instagram icon-md"></span
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
+
   </body>
 </html>
